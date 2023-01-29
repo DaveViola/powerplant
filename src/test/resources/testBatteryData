@@ -1,0 +1,27 @@
+[
+    {
+        "postCode": "2599",
+        "name": "Panasonic",
+        "wattage": "74000"
+    },
+    {
+        "postCode": "2898",
+        "name": "Tesla",
+        "wattage": "65000"
+    },
+    {
+        "postCode": "8999",
+        "name": "Samsung",
+        "wattage": "89000"
+    },
+    {
+        "postCode": "2600",
+        "name": "LG",
+        "wattage": "4670"
+    },
+    {
+        "postCode": "3000",
+        "name": "ABB",
+        "wattage": "1250"
+    }
+]
