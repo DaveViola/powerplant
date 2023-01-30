@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "b6f3d458-72c3-49c7-a249-5a5a92bc60bb",
+		"name": "Misc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BatterManagement",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"postCode\": \"2599\",\r\n        \"name\": \"Panasonic\",\r\n        \"wattage\": \"74000\"\r\n    },\r\n    {\r\n        \"postCode\": \"2898\",\r\n        \"name\": \"Tesla\",\r\n        \"wattage\": \"65000\"\r\n    },\r\n    {\r\n        \"postCode\": \"8999\",\r\n        \"name\": \"Samsung\",\r\n        \"wattage\": \"89000\"\r\n    },\r\n    {\r\n        \"postCode\": \"2600\",\r\n        \"name\": \"LG\",\r\n        \"wattage\": \"4670\"\r\n    },\r\n    {\r\n        \"postCode\": \"3000\",\r\n        \"name\": \"ABB\",\r\n        \"wattage\": \"1250\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/batteries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"batteries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBatteriesByPostCodes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
